@@ -215,8 +215,21 @@ the single-panel PNGs that the manuscript figure plates are composed from.
 ## Citation
 
 If you use this code, please cite the accompanying article (in preparation) and
-this archive. The Zenodo DOI will be added here once the first release is
-archived.
+this archive.
+
+| | DOI |
+|---|---|
+| Concept (always resolves to the latest version) | [10.5281/zenodo.22987549](https://doi.org/10.5281/zenodo.22987549) |
+| Version v1.0.0 (archived 2026-09-27) | [10.5281/zenodo.22987550](https://doi.org/10.5281/zenodo.22987550) |
+
+> Wang K. *sle-periop-gc-analysis: analysis code for a head-to-head cohort study
+> of early ICU glucocorticoid dose in systemic lupus erythematosus versus
+> rheumatoid arthritis* (v1.0.0). Zenodo; 2026.
+> https://doi.org/10.5281/zenodo.22987550
+
+Note on versions: the Zenodo **v1.0.0** snapshot is the commit tagged `v1.0.0`.
+This `README.md` is a living document, so later edits (this Citation table, for
+example) appear here and on GitHub but not inside that frozen archive.
 
 ## Licence
 
