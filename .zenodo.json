@@ -1,0 +1,30 @@
+{
+  "title": "sle-periop-gc-analysis: analysis code for a head-to-head cohort study of early ICU glucocorticoid dose in systemic lupus erythematosus versus rheumatoid arthritis",
+  "description": "Extraction and analysis code accompanying a multi-database observational study in which the underlying rheumatic diagnosis (systemic lupus erythematosus versus rheumatoid arthritis) was treated as an effect modifier of the association between early intensive-care-unit glucocorticoid dose and 30-day mortality. The repository holds the numbered analysis pipeline: schema probes, cohort extraction from MIMIC-IV v3.1 with external cohorts in eICU-CRD v2.0 and NWICU, narrative-annotation corpora built from discharge summaries, Firth-penalised interaction models with robustness and negative-control batteries, and the measurement-validation programme for the text phenotype (blinded double coding, out-of-sample replication, rule ablation, human adjudication). No patient-level data are included: all source databases are governed by PhysioNet data-use agreements, so users must obtain credentialed access and run the extraction scripts under their own DUA.",
+  "license": "mit",
+  "upload_type": "software",
+  "access_right": "open",
+  "language": "eng",
+  "creators": [
+    {
+      "name": "Wang, Kai",
+      "orcid": "0000-0002-0511-8038",
+      "affiliation": "Department of Rheumatology and Immunology, the Affiliated Huaian No.1 People's Hospital of Nanjing Medical University, Huaian, China"
+    }
+  ],
+  "keywords": [
+    "systemic lupus erythematosus",
+    "rheumatoid arthritis",
+    "glucocorticoid",
+    "dose response",
+    "effect modification",
+    "intensive care",
+    "MIMIC-IV",
+    "eICU-CRD",
+    "NWICU",
+    "Firth penalised likelihood",
+    "target trial emulation",
+    "natural language processing"
+  ],
+  "notes": "Code only; no patient-level data. Source databases require PhysioNet credentialing under their own data-use agreements."
+}

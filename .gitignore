@@ -1,0 +1,23 @@
+# Patient-level data (PhysioNet DUA) — NEVER commit
+data/
+out/
+exports/
+outputs/
+*.csv
+*.rds
+*.parquet
+*.pkl
+
+# Local Python environment
+__pycache__/
+*.pyc
+.venv/
+venv/
+env/
+
+# Session / tooling artifacts
+.workbuddy/
+tmp*/
+*_chk.txt
+.DS_Store
+Thumbs.db
